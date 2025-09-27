@@ -1,0 +1,8 @@
+a=int(input())
+b=list(map(int,input().split()))
+c=b[a//2]
+d=b.count(c)
+if d>a/2:
+    print("The majority element is :",c)
+else:
+    print("No majority element found in the array")
